@@ -71,7 +71,7 @@ header .container .nav button {
   border: 2px solid black;
 }
 
-header .introduction .container {
+.introduction .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,12 +84,40 @@ header .introduction .container {
           justify-content: center;
 }
 
-header .introduction .video {
+.video {
   margin-top: 50px;
   width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.video .vid {
+  width: 700px;
   height: 400px;
-  background-image: url(../images/Rectangle2.png);
-  background-position: center;
+  background-image: url("../images/Rectangle2.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: 100%;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
