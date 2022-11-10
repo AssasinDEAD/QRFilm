@@ -81,3 +81,7 @@ header{
    width: 400px;
 }
 
+.footer_main{
+   display: flex;
+   justify-content: space-around;
+}
