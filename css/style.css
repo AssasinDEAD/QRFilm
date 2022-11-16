@@ -22,7 +22,7 @@ header{
    opacity: 0.6;
 }
 .logo{
-   width: 120px;
+   width: 160px;
    height: 60px;
 }
 .header_main{
@@ -81,7 +81,68 @@ header{
    width: 400px;
 }
 
+footer{
+   background-color: black;
+   padding-top: 15px;
+}
+
 .footer_main{
    display: flex;
    justify-content: space-around;
 }
+.headerv{
+   background-color: black;
+}
+.headerv_nav{
+   padding-top: 10px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.headerv_nav a{
+   margin-right: 30px;
+}
+
+.video_side{
+   width: 100%;
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.video{
+   width: 1000px;
+   height: auto;
+}
+.video_btns{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.video_btns a {
+   display: block;
+   width: 170px;
+   height: 60px;
+   background-color: #f0f0f0;
+   color: #1F1F1F;
+   text-align: center;
+   padding-top: 18px;
+   border-radius: 9%;
+}
+.video_btnTop{
+   display: flex; 
+   width: 100%;
+   justify-content: space-around;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.video_btnBottom{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   text-align: center;
+}
+
